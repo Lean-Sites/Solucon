@@ -33,20 +33,19 @@ ESTRUTURA DE ARQUIVOS
 SEÇÕES DO MICROSITE
 --------------------------------------------------------------------
   1. Tela de acesso (senha)
-  2. Capa / hero
+  2. Capa / hero (imagem em quadro)
   3. Headline (frase de posicionamento)
   4. Leitura executiva (contexto, oportunidade, como a Lean ajuda)
-  5. Operação / ecossistema
-  6. Diagnóstico interativo — 6 frentes:
+  5. Diagnóstico — 5 frentes (todas expostas, sem clique):
        1) Processos Administrativos
        2) Orçamentação Inteligente
        3) Produtividade da Engenharia
-       4) Integração de Sistemas
+       4) Integração de Sistemas  (frente central)
        5) Indicadores Financeiros
-       6) Rotina Gerencial e Decisão
-  7. Impacto sistêmico (cenário atual x após melhorias)
-  8. Roadmap (3 fases encadeadas, sem prazo rígido por etapa)
-  9. Metodologia Lean (Validar · Estruturar · Implantar · Acompanhar)
+  6. Impacto sistêmico (cenário atual x após melhorias)
+  7. Roadmap (3 fases encadeadas, sem prazo rígido por etapa)
+  8. Metodologia Lean (Validar · Estruturar · Implantar · Acompanhar)
+  9. Exemplo — dashboard real da Lean (botão + acesso de demonstração)
  10. Proposta comercial
  11. Encerramento
  12. Rodapé institucional Lean
@@ -54,9 +53,9 @@ SEÇÕES DO MICROSITE
 --------------------------------------------------------------------
 PROPOSTA COMERCIAL (resumo)
 --------------------------------------------------------------------
-  Duração:      12 meses (renovável / extensível)
   Formato:      Presencial
   Frequência:   4 visitas por mês
+  Acompanhamento: recorrente e presencial
   Valor mensal: R$ 7.760 (despesas já incluídas)
   Cancelamento: sem multa, com aviso prévio de 30 dias
 

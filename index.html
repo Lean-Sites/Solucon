@@ -52,10 +52,10 @@
       <nav class="nav" id="nav" aria-label="Seções do diagnóstico">
         <a href="#capa" class="nav__link">Início</a>
         <a href="#leitura" class="nav__link">Panorama</a>
-        <a href="#ecossistema" class="nav__link">Operação</a>
         <a href="#diagnostico" class="nav__link">Diagnóstico</a>
         <a href="#impacto" class="nav__link">Impacto</a>
         <a href="#roadmap" class="nav__link">Roadmap</a>
+        <a href="#exemplo" class="nav__link">Exemplo</a>
         <a href="#proposta" class="nav__link">Proposta</a>
       </nav>
       <div class="header__right">
@@ -119,27 +119,14 @@
     </div>
   </section>
 
-  <!-- ECOSSISTEMA -->
-  <section id="ecossistema" class="section section--alt">
-    <div class="section__head">
-      <span class="eyebrow">Operação</span>
-      <h3 class="section__title">Uma operação que une indústria e serviço</h3>
-      <p class="section__lead">Fabricação, transporte e instalação de sistemas construtivos — cada frente com seus próprios processos e pontos de decisão.</p>
-    </div>
-    <div class="eco" id="eco-grid"></div>
-  </section>
-
-  <!-- DIAGNÓSTICO INTERATIVO -->
+  <!-- DIAGNÓSTICO -->
   <section id="diagnostico" class="section">
     <div class="section__head">
       <span class="eyebrow">Diagnóstico por frentes</span>
-      <h3 class="section__title">Seis frentes para estruturar e acelerar a gestão</h3>
-      <p class="section__lead">Selecione uma frente. Cada uma apresenta o contexto atual, os riscos, as ações propostas e os impactos esperados.</p>
+      <h3 class="section__title">Cinco frentes para estruturar e acelerar a gestão</h3>
+      <p class="section__lead">Do administrativo aos indicadores — cada frente com o que observamos e o que a Lean entrega.</p>
     </div>
-    <div class="diag">
-      <div class="diag__tabs" role="tablist" aria-label="Frentes de diagnóstico" id="diag-tabs"></div>
-      <div class="diag__panels" id="diag-panels"></div>
-    </div>
+    <div class="dcards" id="diag-grid"></div>
   </section>
 
   <!-- IMPACTO SISTÊMICO -->
@@ -160,7 +147,7 @@
     <div class="section__head">
       <span class="eyebrow">Sequência recomendada</span>
       <h3 class="section__title">Três fases que se conectam</h3>
-      <p class="section__lead">Uma parceria de 12 meses, renovável. As fases são encadeadas — sem prazos rígidos por etapa: cada uma avança conforme a maturidade e as prioridades validadas na operação.</p>
+      <p class="section__lead">As fases são encadeadas, sem prazos rígidos por etapa: cada uma avança conforme a maturidade e as prioridades validadas na operação.</p>
     </div>
     <div class="roadmap">
       <article class="phase">
@@ -207,23 +194,36 @@
     </div>
   </section>
 
+  <!-- EXEMPLO / DASHBOARD -->
+  <section id="exemplo" class="section section--alt">
+    <div class="showcase">
+      <div class="showcase__text">
+        <span class="eyebrow">Exemplo do nosso trabalho</span>
+        <h3 class="section__title">Veja um painel que já construímos</h3>
+        <p>Um dashboard gerencial real desenvolvido pela Lean — o tipo de entrega que reúne indicadores de diferentes sistemas em um só lugar, como planejamos para a Solucon.</p>
+        <a href="https://leanco-dashboardexemplo.vercel.app/login.html" class="btn btn--lean" target="_blank" rel="noopener">Abrir dashboard de exemplo</a>
+        <p class="showcase__cred">Acesso de demonstração &nbsp;·&nbsp; <strong>login:</strong> lean &nbsp;&nbsp; <strong>senha:</strong> lean2025</p>
+      </div>
+    </div>
+  </section>
+
   <!-- PROPOSTA -->
   <section id="proposta" class="section">
     <div class="section__head">
       <span class="eyebrow">Proposta comercial</span>
-      <h3 class="section__title">Uma parceria de 12 meses, presencial</h3>
+      <h3 class="section__title">Uma parceria presencial e próxima</h3>
     </div>
     <div class="proposal">
       <div class="proposal__main">
         <div class="proposal__grid">
-          <div class="proposal__item"><span class="proposal__k">Duração</span><span class="proposal__v">12 meses · renovável</span></div>
           <div class="proposal__item"><span class="proposal__k">Formato</span><span class="proposal__v">Presencial</span></div>
           <div class="proposal__item"><span class="proposal__k">Frequência</span><span class="proposal__v">4 visitas por mês</span></div>
+          <div class="proposal__item"><span class="proposal__k">Acompanhamento</span><span class="proposal__v">Recorrente e presencial</span></div>
           <div class="proposal__item"><span class="proposal__k">Despesas</span><span class="proposal__v">Já incluídas</span></div>
           <div class="proposal__item"><span class="proposal__k">Cancelamento</span><span class="proposal__v">Sem multa · aviso de 30 dias</span></div>
-          <div class="proposal__item"><span class="proposal__k">Escopo</span><span class="proposal__v">6 frentes de diagnóstico e implantação</span></div>
+          <div class="proposal__item"><span class="proposal__k">Escopo</span><span class="proposal__v">5 frentes de diagnóstico e implantação</span></div>
         </div>
-        <p class="proposal__note">O valor contempla o acompanhamento presencial, a estruturação dos processos, a construção dos indicadores e a rotina de gestão descritos neste diagnóstico. As despesas de deslocamento já estão incluídas no valor mensal.</p>
+        <p class="proposal__note">O valor contempla o acompanhamento presencial, a estruturação dos processos, a integração dos sistemas e a construção dos indicadores descritos neste diagnóstico. As despesas de deslocamento já estão incluídas no valor mensal.</p>
       </div>
       <aside class="proposal__price">
         <span class="proposal__price-k">Investimento mensal</span>
